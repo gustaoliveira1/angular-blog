@@ -1,0 +1,17 @@
+.articles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1024px;
+  margin: auto;
+}
+
+.articles > .left, .articles > .right {
+  padding: 1.5rem;
+}
+
+.articles > .right {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
