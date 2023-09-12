@@ -21,6 +21,6 @@
   color: gray;
 }
 
-.small-card-text > .post-title > h3 {
+.small-card-text > .description > h3 {
   font-size: .75rem;
 }
