@@ -1,0 +1,30 @@
+.container-big-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.container-big-card > img {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.big-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.big-card-text > a > h2 {
+  font-size: 1.25rem;
+}
+
+.big-card-text > a > h2:hover {
+  transition: .5s;
+  color: lightgrey;
+}
+
+.big-card-text > p {
+  color: grey;
+}
