@@ -1,0 +1,12 @@
+.container-title {
+  color: white;
+}
+
+.container-title > h1 {
+  text-transform: uppercase;
+  margin: 1rem;
+  font-size: 6rem;
+  font-family: 'segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+}
