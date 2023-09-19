@@ -7,6 +7,8 @@ import { Component, Input } from '@angular/core';
 })
 export class SmallCardComponent {
   @Input()
+  id = ''
+  @Input()
   cover = ''
   @Input()
   author = ''
