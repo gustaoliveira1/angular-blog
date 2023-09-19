@@ -7,9 +7,13 @@ import { Component, Input } from '@angular/core';
 })
 export class BigCardComponent {
   @Input()
+  id='0'
+  @Input()
   cover = ''
   @Input()
   title = ''
+  @Input()
+  titleLink=''
   @Input()
   description = ''
 }
